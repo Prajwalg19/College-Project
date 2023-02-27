@@ -10,7 +10,7 @@ st.write("""     ## Pavan R and Prajwal G""")
 st.write(""" # Predicted Insurence Price """)
 
 
-st.image("""bg-insurance.jpg""")
+##st.image("""bg-insurance.jpg""")
 
 
 class Preprocessing_OHE():
