@@ -10,7 +10,7 @@ st.write("""     ## Pavan R and Prajwal G""")
 st.write(""" # Predicted Insurence Price """)
 
 
-##st.image("""bg-insurance.jpg""")
+##st.image("""/Insurance/app/bg-insurance.jpg""")
 
 
 class Preprocessing_OHE():
@@ -95,7 +95,7 @@ def preprocess(new_data):
 def predict(new_data):
 
     model = XGBRegressor()
-    model.load_model("xgb_insurence.json")
+    model.load_model("/Insurance/app/xgb_insurence.json")
 
     return model.predict(new_data)
 
