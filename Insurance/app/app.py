@@ -7,7 +7,7 @@ from xgboost import XGBRegressor
 st.title("""  Health Insurance Cost Prediction (College AIML project) """)
 st.write(""" # By """)
 st.write("""     ## Pavan R and Prajwal G""")
-st.write(""" # Predicted Insurence Price """)
+st.write(" # Predicted Insurence Price ")
 
 
 st.image("""/Insurance/app/bg-insurance.jpg""")
