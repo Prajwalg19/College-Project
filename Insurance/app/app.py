@@ -5,9 +5,9 @@ import streamlit as st
 from xgboost import XGBRegressor
 
 st.title("""  Health Insurance Cost Prediction (College AIML project) """)
-st.write(""" # By """)
+st.write(""" By""")
 st.write("""     ## Pavan R and Prajwal G""")
-st.write(" # Predicted Insurence Price ")
+st.write(" # Predicting Insurance Price ")
 
 
 st.image("Insurance/app/bg-insurance.jpg")
