@@ -95,7 +95,7 @@ def preprocess(new_data):
 def predict(new_data):
 
     model = XGBRegressor()
-    model.load_model("/Insurance/app/xgb_insurence.json")
+    model.load_model("Insurance/app/xgb_insurence.json")
 
     return model.predict(new_data)
 
